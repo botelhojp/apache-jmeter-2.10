@@ -53,6 +53,10 @@ public final class NewDriver {
 
     static {   	
 
+    	/** Customizacao para Rodar no Eclipse */
+    	File root = new File(NewDriver.class.getResource("/").getFile());   	
+    	System.setProperty("jmeter.home", root.getParent());
+    	/** Customizacao para Rodar no Eclipse */
     	
         final List<URL> jars = new LinkedList<URL>();
         final String initial_classpath = System.getProperty(JAVA_CLASS_PATH);
