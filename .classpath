@@ -23,16 +23,8 @@
 	<classpathentry kind="lib" path="extras/ant-jmeter-1.1.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_components.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_core.jar"/>
 	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_ftp.jar"/>
 	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_functions.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_http.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_java.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_jdbc.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_jms.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_junit.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_ldap.jar"/>
-	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_mail.jar"/>
 	<classpathentry kind="lib" path="lib/avalon-framework-4.1.4.jar"/>
 	<classpathentry kind="lib" path="lib/bsf-2.4.0.jar"/>
 	<classpathentry kind="lib" path="lib/bsh-2.0b5.jar"/>
@@ -101,5 +93,12 @@
 	<classpathentry kind="lib" path="lib/ext/CMDRunner.jar"/>
 	<classpathentry kind="lib" path="lib/ext/JMeterPlugins-Standard.jar"/>
 	<classpathentry kind="lib" path="lib/junit/test.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_http.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_java.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_jdbc.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_jms.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_junit.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_ldap.jar"/>
+	<classpathentry kind="lib" path="lib/ext/ApacheJMeter_mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
